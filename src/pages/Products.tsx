@@ -1,7 +1,9 @@
 export const Products = () => {
     return (
-        <h1>
-            Products
-        </h1>
+        <section id="products" className="">
+            <h1 className="text-white">
+                Products
+            </h1>
+        </section>
     )
 }

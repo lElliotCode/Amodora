@@ -8,14 +8,15 @@ function App() {
 
   return (
     <>
-      <header>
-        <div className="text-center p-4">
+      <header className="fixed z-20 bg-gradient-to-b from-amber-950 to-transparent">
+        <div className="text-center p-4 text-white">
           <h1 className="text-4xl font-thin">Amodora</h1>
           <h2>Para regalar, compartir o conquistarte</h2>
         </div>
         <Navbar />
       </header>
-      <main>
+      <main className=" relative w-screen h-[100vh] bg-[url('https://res.cloudinary.com/dkrzsj6te/image/upload/v1758155301/bg_okdjqi.avif')] bg-cover bg-center flex flex-col items-start justify-center pl-4">
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />

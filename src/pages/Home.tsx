@@ -2,8 +2,8 @@ import { Hero } from "@/features/landing/components/Hero"
 
 export const Home = () => {
     return (
-        <div>
+        <section id="home" className="">
             <Hero />
-        </div>
+        </section>
     )
 }
